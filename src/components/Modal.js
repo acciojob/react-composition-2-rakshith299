@@ -4,7 +4,7 @@ import "../styles/App.css";
 
 
 const Modal = ({show, setShow, closeShow}) => {
-
+ 
 
     return (
         <div className="whole"> 
