@@ -1,1 +1,37 @@
+.button{
+    background-color: #C55151;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 
+.button:active{
+    transform: translateY(4px);
+}
+
+.model-overlay{
+    border: 2px solid black;
+    background-color: lightskyblue;
+    margin-top: 25px;;
+    padding: 20px;
+}
+
+.model-close{
+    background-color: #C55151;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.model-p{
+    color: black;
+    font-size: 25px;
+}
