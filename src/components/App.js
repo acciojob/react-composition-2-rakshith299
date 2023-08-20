@@ -12,14 +12,9 @@ const App = () => {
 
   return (
     <div>
-        
-  
 
           <Modal show = {show} setShow = {() => setShow(true)} closeShow = {() => setShow(false)}/>
-
-
-  
-        
+       
     </div>
   )
 }
