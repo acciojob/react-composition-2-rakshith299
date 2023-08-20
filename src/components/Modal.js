@@ -8,7 +8,6 @@ const Modal = ({show, setShow, closeShow}) => {
 
     return (
         <div className="whole"> 
-        <button className="button" onClick={setShow}>Show Modal </button>
 
         {
             show === true? 

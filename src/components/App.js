@@ -12,8 +12,15 @@ const App = () => {
 
   return (
     <div>
+          <button className="button" onClick={() => setShow(true)}>Show Modal </button>
 
-          <Modal show = {show} setShow = {() => setShow(true)} closeShow = {() => setShow(false)}/>
+          {
+
+            show ? 
+
+            <Modal show = {show} setShow = {() => setShow(true)} closeShow = {() => setShow(false)}/> : ""
+          }
+          
        
     </div>
   )
