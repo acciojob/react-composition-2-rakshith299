@@ -7,19 +7,18 @@ const Modal = ({show, setShow}) => {
 
 
     return (
-        <div> 
+        <div className="whole"> 
         {
             show === true? 
-
             
             <div className="model-overlay">
                 <button className="model-close" onClick={setShow}>Close</button>
-                <p className="model">This is the content of modal.</p>    
+                <div className="modal">
+                    <p className="model-p">This is the content of modal.</p>  
+                </div>  
             </div> :
 
-            <div>
-                <p></p>
-            </div>
+            ""
         }
 
         </div>
