@@ -7,9 +7,6 @@ import Modal from "./Modal.js";
 const App = () => {
   const [show, setShow] = useState(false);
 
-  console.log(show);
-
-
   return (
     <div>
           <button className="button" onClick={() => setShow(true)}>Show Modal </button>

@@ -13,6 +13,11 @@
     transform: translateY(4px);
 }
 
+.whole{
+    /*border: 2px solid black;*/
+    height: 100vh;
+}
+
 .model-overlay{
     border: 2px solid black;
     background-color: lightskyblue;
